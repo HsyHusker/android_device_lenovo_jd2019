@@ -19,11 +19,11 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Pixel Experience targets
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit some common Lineage stuff
-$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
+# Inherit some common PPUI stuff
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := corvus_jd2019
+PRODUCT_NAME := aosp_jd2019
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := jd2019
 PRODUCT_MANUFACTURER := Lenovo

@@ -81,3 +81,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # PPUI Stuff
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.pixelplusui.maintainer=HsyHusker
+
+# Gboard
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.com.google.ime.kb_pad_port_b=1

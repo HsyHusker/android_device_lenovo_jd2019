@@ -18,4 +18,25 @@
 -->
 <resources>
     <bool name="def_double_tap_to_wake">false</bool>
+
+	<!-- Set mobile data on by default -->
+    <bool name="def_mobile_data_always_on">false</bool>
+
+	<!-- Set charging vibration on by default -->  
+    <bool name="def_charging_vibration_enabled">true</bool>
+
+	<!-- Set charging sounds on by default -->  
+    <bool name="def_charging_sounds_enabled">true</bool>
+
+	<!-- Enable notification bubbles by default -->
+    <bool name="def_notification_bubbles">false</bool>
+
+	<!-- 30 seconds for default screen timeout -->
+    <integer name="def_screen_off_timeout">30000</integer>
+
+    <!-- Disable UI touch sounds by default -->
+    <bool name="def_sound_effects_enabled">false</bool>
+
+    <!-- Disable UI touch haptic feedback by default -->
+    <bool name="def_haptic_feedback">false</bool>
 </resources>

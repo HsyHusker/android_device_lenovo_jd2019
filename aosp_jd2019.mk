@@ -22,6 +22,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Inherit some common PPUI stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
+# OPLauncher
+#BUILD_WITH_OPLAUNCHER := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_jd2019
 PRODUCT_BRAND := Lenovo

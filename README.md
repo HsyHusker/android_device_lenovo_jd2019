@@ -11,7 +11,7 @@ Memory  | 4/6 GB
 Shipped Android Version | Pie
 Storage | 64/128 GB
 Battery | 3300 mAh Li-Ion
-Weigth | 172 g 
+Weight | 172 g 
 Dimensions | 74.5 x 156.7 x 7.85 mm
 Display | LTPS-LCD 1080x2340 16M 409ppi
 Rear Camera  | 15.93 MP | Image 4608 x 3456 pixels | Video 3840 x 2160 pixels | Flash | Dual LED

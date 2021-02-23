@@ -67,6 +67,7 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Telephony
 PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.android.mobiledata=false \
     ro.telephony.default_network=22,20 \
     persist.dbg.volte_avail_ovr=1 \
     persist.dbg.vt_avail_ovr=1 \

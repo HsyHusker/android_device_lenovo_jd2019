@@ -84,7 +84,11 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # PPUI Stuff
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.pixelplusui.maintainer=HsyHusker
+    ro.ppui.device_name=Lenovo Z5s
+    ro.ppui.version=3.2
+    ro.ppui.version_code=Sapphire
+    ro.ppui.is_official=true
+    ro.ppui.maintainer_name=Husker
 
 # Gboard
 PRODUCT_PROPERTY_OVERRIDES += \

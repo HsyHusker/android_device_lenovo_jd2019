@@ -15,7 +15,6 @@
     or the app is considered a part of the OS.
 -->
 
-<?xml version="1.0" encoding="utf-8"?>
 <exceptions>
     <exception package="net.oneplus.launcher">
     	<permission name="android.permission.DEVICE_POWER" fixed="false"/>

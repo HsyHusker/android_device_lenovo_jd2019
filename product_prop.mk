@@ -84,10 +84,10 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # PPUI Stuff
 PRODUCT_PRODUCT_PROPERTIES += \
-    ro.ppui.device_name=Lenovo Z5s
-    ro.ppui.version=3.3
-    ro.ppui.version_code=Tanzanite
-    ro.ppui.is_official=true
+    ro.ppui.device_name=Lenovo Z5s \
+    ro.ppui.version=3.3 \
+    ro.ppui.version_code=Tanzanite \
+    ro.ppui.is_official=true \
     ro.ppui.maintainer_name=Husker
 
 # Gboard

@@ -82,14 +82,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.device_config.runtime_native.usap_pool_enabled=true
 
-# PPUI Stuff
-PRODUCT_PRODUCT_PROPERTIES += \
-    ro.ppui.device_name=Lenovo Z5s \
-    ro.ppui.version=3.3 \
-    ro.ppui.version_code=Tanzanite \
-    ro.ppui.is_official=true \
-    ro.ppui.maintainer_name=Husker
-
 # Gboard
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.google.ime.kb_pad_port_b=1

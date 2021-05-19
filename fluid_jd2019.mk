@@ -19,21 +19,23 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 # Pixel Experience targets
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit some common PPUI stuff
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common stuff
+$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
+TARGET_INCLUDE_GAPPS := true
 
 # OPLauncher
 #BUILD_WITH_OPLAUNCHER := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_jd2019
+PRODUCT_NAME := fluid_jd2019
 PRODUCT_BRAND := Lenovo
 PRODUCT_DEVICE := jd2019
 PRODUCT_MANUFACTURER := Lenovo
-PRODUCT_MODEL := Lenovo Z5s
+PRODUCT_MODEL := Z5s
 
 PRODUCT_GMS_CLIENTID_BASE := android-lenovo
 
-# PPUI Stuff
-CUSTOM_BUILD_TYPE := OFFICIAL
-TARGET_FACE_UNLOCK_SUPPORTED := true
+# Fluid Stuff
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.fluid.maintainer=Husker \
+    ro.fluid.cpu=SDM710
